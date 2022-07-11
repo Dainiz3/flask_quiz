@@ -53,6 +53,3 @@ def submit():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-# https://www.youtube.com/watch?v=PXnS8ftfCr8
