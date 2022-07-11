@@ -1,7 +1,7 @@
 A python quiz using Flask example
 ============================
 
-This is a mini quiz app. 4 Python questions are stored in a dictionary. Each question has 3 options.
+This is a mini quiz app. 4 Python questions are stored in a objects q1,q2,q3,q4. Each question has 3 options.
 
 User must select answers to all questions and try to find correct answer.
 
