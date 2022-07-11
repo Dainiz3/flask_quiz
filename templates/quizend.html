@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz application</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static', filename='style_miniquiz.css')}}'>
+</head>
+<body>
+
+<h1>Your result</h1>
+
+<form action="/submitquiz", method="post">
+<h4>
+    <p>
+        Correct answers: 
+        <label for="correct_count" >{{correct_count}}</label> <br>
+        </p>
+</h4>
+</form>
+<a href="/quiz"><input type='submit' value='Reset'/></a>
+</body>
+</html>
