@@ -47,7 +47,6 @@ def submit():
         if selected_option == correct_option:
             correct_count = correct_count +1
     correct_count = str(correct_count)
-    # return correct_count
     return render_template("quizend.html", correct_count = correct_count, correct_option = correct_option)
 
 
